@@ -1,0 +1,35 @@
+
+Pull requests
+Issues
+Marketplace
+Explore
+@Ieenah
+samtheBrave /
+FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS/Dockerfile
+@samtheBrave
+samtheBrave Update Dockerfile
+Latest commit 058d3ce on 11 Nov 2019
+History
+1 contributor
+10 lines (6 sloc) 161 Bytes
+FROM python:stretch
+
+COPY . /app
+WORKDIR /app
